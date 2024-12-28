@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the webpage responsive -->
+  <title>Rhyme Assistant</title> <!-- Sets the title of the webpage -->
+  <link rel="stylesheet" href="style.css"> <!-- Links the CSS file for styling -->
+</head>
+<body>
+    <div id="rhymeAssistant">
+        <!-- Input field where the user can type a word to find rhymes -->
+        <input type="text" id="inputWord" placeholder="Enter a word" />
+        
+        <!-- Button to trigger the search for rhymes -->
+        <button id="findRhymes">Find Rhymes</button>
+        
+        <!-- List where the rhymes will be displayed -->
+        <ul id="resultList"></ul>
+        
+        <!-- Button to show additional rhymes if there are more than 10 -->
+        <button id="showMore" style="display: none;">Show 10 More</button>
+      </div>
+      
+  <!-- JavaScript files required for the functionality of the application -->
+  <script src="wordList.js"></script> <!-- Loads the word list -->
+  <script src="calculateRhymeScore.js"></script> <!-- Contains the algorithm to calculate rhyme scores -->
+  <script src="findRhymes.js"></script> <!-- Contains the function to find rhymes -->
+  <script src="RhymeAssistant.js"></script> <!-- Manages the rhyme assistant's logic -->
+  <script src="sketch.js" defer></script> <!-- Main script for handling user interactions -->
+</body>
+</html>

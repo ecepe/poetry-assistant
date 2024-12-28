@@ -1,0 +1,31 @@
+/* Set the overall font style and layout for the page */
+body {
+  font-family: Arial, sans-serif; /* Use a clean and readable font */
+  text-align: center; /* Center-align all content on the page */
+  padding: 20px; /* Add some spacing around the edges of the page */
+}
+
+/* Style for the main app container */
+#app {
+  max-width: 500px; /* Restrict the app width to make it look centered and neat */
+  margin: 0 auto; /* Center the app horizontally */
+}
+
+/* Style for the input fields and buttons */
+input, button {
+  font-size: 16px; /* Make the text large enough for readability */
+  margin: 10px 0; /* Add space above and below elements */
+  padding: 10px; /* Add padding inside for better appearance */
+}
+
+/* Style for the unordered list */
+ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style for each list item */
+li {
+  font-size: 18px; /* Make the text larger for better readability */
+  padding: 5px 0; /* Add vertical spacing between list items */
+}
